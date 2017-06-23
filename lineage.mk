@@ -7,15 +7,15 @@ TARGET_BOOTANIMATION_HALF_RES := true
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/intel/chuwi_vi10plus/chuwi_vi10plus.mk)
+$(call inherit-product, device/intel/cube_iwork10/cube_iwork10.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := chuwi_vi10plus
-PRODUCT_NAME := lineage_chuwi_vi10plus
-PRODUCT_BRAND := Chuwi
-PRODUCT_MODEL := Vi10 Plus
-PRODUCT_MANUFACTURER := Chuwi
-PRODUCT_RELEASE_NAME := Chuwi Vi10 Plus
+PRODUCT_DEVICE := cube_iwork10
+PRODUCT_NAME := lineage_cube_iwork10
+PRODUCT_BRAND := Cube
+PRODUCT_MODEL := iWork10 i15-TD
+PRODUCT_MANUFACTURER := Cube
+PRODUCT_RELEASE_NAME := Cube iWork10 flagship
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \

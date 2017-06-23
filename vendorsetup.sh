@@ -1,1 +1,1 @@
-add_lunch_combo lineage_chuwi_vi10plus-userdebug
+add_lunch_combo lineage_cube_iwork10-userdebug
